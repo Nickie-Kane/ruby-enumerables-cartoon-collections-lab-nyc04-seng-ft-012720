@@ -9,7 +9,7 @@ def summon_captain_planet(string)# code an argument here
   # Your code here
   string.collect do |call| 
     call.capitalize << "!"
-  
+  end
 end
 
 def long_planeteer_calls(string)# code an argument here
